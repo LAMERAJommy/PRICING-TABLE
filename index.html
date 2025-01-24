@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table Jommy Lamera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .pricing-table {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .Prices-service {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            text-align: center;
+        }
+
+        .card-header {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 15px;
+            border-radius: 8px 8px 0 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .card-price {
+            font-size: 36px;
+            margin: 20px 0;
+            color: #333;
+        }
+
+        .card-features {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card-features li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .card-features li:last-child {
+            border-bottom: none;
+        }
+
+        .card-button {
+            margin-top: 20px;
+        }
+
+        .card-button a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="pricing-table">
+        <div class="Prices-service">
+            <div class="card-header">Basic</div>
+            <div class="card-price">₱500/month</div>
+            <ul class="card-features">
+                <li>10 Projects</li>
+                <li>5 GB Storage</li>
+                <li>Email Support</li>
+            </ul>
+            <div class="card-button">
+                <a href="somewhere">Choose Plan</a>
+            </div>
+        </div>
+
+        <div class="Prices-service">
+            <div class="card-header">Pro</div>
+            <div class="card-price">₱1000/month</div>
+            <ul class="card-features">
+                <li>50 Projects</li>
+                <li>20 GB Storage</li>
+                <li>Priority Support</li>
+            </ul>
+            <div class="card-button">
+                <a href="somewhere">Choose Plan</a>
+            </div>
+        </div>
+
+        <div class="Prices-service">
+            <div class="card-header">Deluxe</div>
+            <div class="card-price">₱3000/month</div>
+            <ul class="card-features">
+                <li>Unlimited Projects</li>
+                <li>100 GB Storage</li>
+                <li>24/7 Support</li>
+            </ul>
+            <div class="card-button">
+                <a href="somewhere">Choose Plan</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
